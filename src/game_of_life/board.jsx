@@ -4,7 +4,7 @@ import React from 'react'
 
 export default class Board extends React.Component {
     render() {
-        const width = (this.props.cols * 14);
+        const width = (this.props.cols *16);
         var rowsArray = [];
 
         var boxClass = "";
@@ -35,13 +35,14 @@ export default class Board extends React.Component {
 
 class Box extends React.Component {
     selectBox = () => {
+        console.log(this.props.row, this.props.col)
         this.props.selectBox(this.props.row, this.props.col)
     }
     render() {
         return (
             <div className={this.props.boxClass}
                  id = {this.props.id}
-                 onClick={this.props.selectBox}
+                 onClick={this.selectBox}
             />
         )
     }
