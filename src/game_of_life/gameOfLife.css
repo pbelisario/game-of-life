@@ -1,0 +1,60 @@
+.canvas-ish {
+    position: relative;
+}
+
+.button-area {
+    position: relative;
+    padding: 3%;
+    background-color: #4f3ebe;
+}
+
+.buttons-list {
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: rgb(201, 64, 166)
+}
+
+h2 {
+    color:rgb(237, 120, 100);
+}
+
+button {
+    display: grid;
+    position: relative;
+    color: rgb(237, 120, 100);
+    background-color: #4f3ebe;
+    width: 133.27084px;
+    border-width:0;
+    padding: 5%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+button:hover {
+    display: grid;
+    background-color: #4739a7;
+    border-width:0;
+    width: 133.27084px;
+    
+}
+
+.board {
+    
+    margin-left:25%;
+    
+    
+}
